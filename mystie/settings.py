@@ -32,12 +32,21 @@ APP_NAME = 'DJ4e Samples'
 # Application definition
 
 INSTALLED_APPS = [
+    # Sample applications
     'cats.apps.CatsConfig',
     'autos.apps.AutosConfig',
     'authz.apps.AuthzConfig',
     'hello.apps.HelloConfig',
     'home.apps.HomeConfig',
     'polls.apps.PollsConfig',
+
+    # Extension - installed with pip3 / requirements.txt
+    'django_extensions', 
+    'crispy_forms',  
+    'rest_framework', 
+    'social_django',  
+
+    # django libraries
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
