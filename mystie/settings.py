@@ -33,6 +33,7 @@ APP_NAME = 'DJ4e Samples'
 
 INSTALLED_APPS = [
     # Sample applications
+    'ads.apps.AdsConfig',
     'cats.apps.CatsConfig',
     'autos.apps.AutosConfig',
     'authz.apps.AuthzConfig',
@@ -53,6 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
 ]
 
 MIDDLEWARE = [

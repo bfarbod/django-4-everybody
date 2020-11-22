@@ -18,6 +18,7 @@ from django.urls import path, include
 from django.views.generic import TemplateView
 
 urlpatterns = [
+    path('ads/', include('ads.urls')),
     path('cats/', include('cats.urls')),
     path('autos/', include('autos.urls')),
     path('authz/', include('authz.urls')),
